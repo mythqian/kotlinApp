@@ -6,6 +6,6 @@ import com.mythqian.lib_common.base.IBaseView
 interface MainContract {
     interface View : IBaseView
     abstract class Presenter : BasePresenter<View>(){
-        abstract fun btn_request()
+
     }
 }
